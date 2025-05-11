@@ -1,13 +1,17 @@
 
 body {
-    background-color: #111;
-    color: #fff;
     text-align: center;
     font-family: sans-serif;
 }
 canvas {
-    background-color: #333;
-    display: block;
-    margin: 20px auto;
-    border: 2px solid #fff;
+    border: 2px solid black;
+    max-width: 100%;
+    height: auto;
+}
+#controls, #shop {
+    margin-top: 10px;
+}
+button {
+    font-size: 16px;
+    margin: 2px;
 }
